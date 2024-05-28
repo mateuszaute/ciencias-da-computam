@@ -1,17 +1,19 @@
 programa {
   funcao inicio() {
-    inteiro idade, soma
+    inteiro numero1, numero2, soma
+     
 
-    escreva("qaul a sua idade:")
-    leia(idade)
+     escreva("escreva um numero: ")
+     leia(numero1)
 
-    soma = idade * 365
+     escreva("escreva outro numero: ")
+
+    leia(numero2)
+
+    soma = numero1 + numero2
 
     escreva(soma)
 
-
-
-  
     
   }
 }
